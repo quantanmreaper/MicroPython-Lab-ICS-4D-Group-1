@@ -105,7 +105,7 @@ python view_data.py
 ## Documentation & Resources
 
 ### � Board Folder - TTGO Code
-The `board/` folder contains the MicroPython code that runs on the TTGO LoRa32 (ESP32):
+The `board/` folder contains the MicroPython code that runs on the TTGO (ESP32):
 
 - **`config.py`** - Configuration file containing:
   - WiFi credentials (SSID and password)
