@@ -100,4 +100,26 @@ python view_data.py
 | DATA  | GPIO15      | **GPIO23**       |
 | GND   | GND         | GND              |
 
+---
 
+## Documentation & Resources
+
+### 📄 Lab Report
+View or download the complete lab report:
+- [**ICS 4D Lab Report - Group 1 MicroPython**](./ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf)
+
+### 📸 Screenshots
+
+#### Main Deliverable Screenshots
+Visual documentation of all required lab deliverables:
+- [View Main Deliverable Screenshots](./screenshots/Main%20Deliverable%20Screenshots/)
+  - [Deliverable 2.1: Wiring Diagram](./screenshots/Main%20Deliverable%20Screenshots/Deliverable%202.1%20Wiring%20Diagram.png)
+  - [Deliverable 2.2: Wiring Diagram - TTGO Close-up](./screenshots/Main%20Deliverable%20Screenshots/Deliverable%202.2%20Wiring%20Diagram_Close%20up%20of%20TTGO.png)
+  - [Deliverable 3: REPL Output - Live Sensor Readings](./screenshots/Main%20Deliverable%20Screenshots/Deliverable%203_REPL%20output%20showing%20live%20sensor%20readings.png)
+  - [Deliverable 4: Terminal Receiving 10+ JSON Messages](./screenshots/Main%20Deliverable%20Screenshots/Deliverable%204_%20terminal%20receiving%20at%20least%2010%20JSON%20messages.png)
+  - [Deliverable 5: SQLite Query Results with Timestamps](./screenshots/Main%20Deliverable%20Screenshots/Deliverable%205_%20SQLite%20SELECT%20query%20confirming%20rows%20stored%20with%20timestamps.png)
+
+#### Development Process Screenshots
+Behind-the-scenes documentation of our implementation journey:
+- [View Process Screenshots](./screenshots/Screenshots_of_Process/)
+  - Setup, flashing, debugging, and final working system captures
