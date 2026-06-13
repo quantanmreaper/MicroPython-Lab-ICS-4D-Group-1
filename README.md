@@ -104,7 +104,22 @@ python view_data.py
 
 ## Documentation & Resources
 
-### 📄 Lab Report
+### � Board Folder - TTGO Code
+The `board/` folder contains the MicroPython code that runs on the TTGO LoRa32 (ESP32):
+
+- **`config.py`** - Configuration file containing:
+  - WiFi credentials (SSID and password)
+  - MQTT broker settings (broker address, port, topic, client ID)
+  - Pin configuration for the TTGO (DHT sensor pin: GPIO23)
+  - Publish interval settings
+
+- **`main.py`** - Main program with core functions:
+  - `connect_wifi()` - Establishes WiFi connection
+  - `connect_mqtt()` - Connects to the MQTT broker
+  - `read_sensor()` - Reads temperature and humidity from DHT22
+  - `main()` - Main loop that reads sensor data and publishes JSON payloads to MQTT every 15 seconds
+
+### �📄 Lab Report
 View or download the complete lab report:
 - [**📥 Download PDF Report**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/raw/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - Direct download
 - [**👁️ View PDF in Browser**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/blob/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - GitHub viewer (may be slow)
