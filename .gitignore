@@ -1,0 +1,17 @@
+# --- Secrets: never commit your real WiFi password ---
+board/config.py
+
+# --- Database file (regenerate with init_db.py) ---
+pc/readings.db
+
+# --- Python junk ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
