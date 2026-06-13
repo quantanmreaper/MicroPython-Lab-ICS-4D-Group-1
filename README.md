@@ -1,12 +1,12 @@
 ## Team
 
-- Group: ICS 4D Group 1 Embedded Systems and IoT
-- Members: 
-           167077 Mepani Bhavin Ramesh
-           169649 Kimathi Austin Muthomi
-           161088 Muhia Robby Mwangi
-           166991 Omwanda Philip Maxwell
-           166529 Hope Wanjohi
+- **Group:** ICS 4D Group 1 Embedded Systems and IoT
+- **Members:**
+  - 167077 - Mepani Bhavin Ramesh
+  - 169649 - Kimathi Austin Muthomi
+  - 161088 - Muhia Robby Mwangi
+  - 166991 - Omwanda Philip Maxwell
+  - 166529 - Hope Wanjohi
 
 # TTGO + DHT22 + MQTT IoT Lab
 
