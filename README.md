@@ -106,7 +106,8 @@ python view_data.py
 
 ### 📄 Lab Report
 View or download the complete lab report:
-- [**ICS 4D Lab Report - Group 1 MicroPython**](./ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf)
+- [**📥 Download PDF Report**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/raw/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - Direct download
+- [**👁️ View PDF in Browser**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/blob/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - GitHub viewer (may be slow)
 
 ### 📸 Screenshots
 
