@@ -103,6 +103,67 @@ python view_data.py
 
 ---
 
+## Hardware Setup & Flashing Commands
+
+This section documents the actual commands we used to flash MicroPython firmware to the TTGO LoRa32 board and deploy our code.
+
+### Step 1: Install esptool
+```bash
+pip install esptool
+```
+
+### Step 2: Erase the Flash Memory
+```bash
+esptool.py --port COM5 erase_flash
+```
+
+### Step 3: Flash MicroPython Firmware
+```bash
+esptool.py --port COM5 --baud 460800 write_flash -z 0x1000 ESP32_GENERIC-xxxx.bin
+```
+> Replace `xxxx` with your actual firmware version number
+
+### Step 4: Install mpremote Tool
+```bash
+python -m pip install mpremote
+```
+
+### Step 5: Test Board Connection
+```bash
+python -m mpremote connect COM5 exec "print('hello from the board')"
+```
+
+### Step 6: Install Required MicroPython Libraries
+```bash
+# Install MQTT library
+python -m mpremote connect COM5 mip install umqtt.simple
+
+# Install OLED display library (optional)
+python -m mpremote connect COM5 mip install ssd1306
+```
+
+### Step 7: Upload Configuration and Main Files
+```bash
+# Copy config.py to the board
+python -m mpremote connect COM10 fs cp board/config.py :config.py
+
+# Copy main.py to the board
+python -m mpremote connect COM10 fs cp board/main.py :main.py
+```
+
+### Step 8: Verify Files and Start REPL
+```bash
+# List files on the board
+python -m mpremote connect COM10 fs ls
+
+# Open REPL to see live output
+python -m mpremote connect COM10 repl
+```
+
+> **Note:** The COM port may vary (COM5, COM10, etc.). Check Device Manager (Windows) or `/dev/ttyUSB*` (Linux) to find your board's port.
+
+---
+
 ## Documentation & Resources
 
 ### � Board Folder - TTGO Code
