@@ -122,8 +122,8 @@ The `board/` folder contains the MicroPython code that runs on the TTGO (ESP32):
 
 ### �📄 Lab Report
 View or download the complete lab report:
-- [**📥 Download PDF Report**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/raw/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - Direct download
-- [**👁️ View PDF in Browser**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/blob/main/ICS_4D_Lab%20Report_Group1_Lab_MICROPYTHON.pdf) - GitHub viewer (may be slow)
+- [**📥 Download PDF Report**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/blob/main/GROUP1_ICS4D_MICRO_PYTHON_Lab_Report.pdf) - Direct download
+- [**👁️ View PDF in Browser**](https://github.com/quantanmreaper/MicroPython-Lab-ICS-4D-Group-1/blob/main/GROUP1_ICS4D_MICRO_PYTHON_Lab_Report.pdf) - GitHub viewer (may be slow)
 
 ### 📸 Screenshots
 
